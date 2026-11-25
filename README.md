@@ -5,6 +5,15 @@ devices. It uses the reverse-engineered AigoSmart login and Alibaba Cloud IoT
 API flow from the upstream Aigostar project, then polls each discovered device
 for its TSL properties.
 
+## Credits
+
+The AigoSmart authentication flow and Alibaba Cloud IoT API client are based
+on the reverse-engineered work in
+[MarcoM1993/ha-aigostar](https://github.com/MarcoM1993/ha-aigostar), originally
+created for Aigostar smart lights. This repository adapts that work for the
+Aigostar electric kettle and adds kettle-specific temperature, mode,
+keep-warm, and heating controls.
+
 The integration exposes the current temperature, target temperature, a
 keep-warm switch, an exploratory operating-mode selector, and explicit start/stop heating buttons. The heating field is
 implemented as buttons because the kettle treats `HeatingSwitch` as a
