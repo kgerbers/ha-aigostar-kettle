@@ -1,0 +1,16 @@
+{
+  "domain": "aigostar",
+  "name": "AigoSmart Devices",
+  "codeowners": [
+    "@MarcoM1993"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/MarcoM1993/ha-aigostar",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/MarcoM1993/ha-aigostar/issues",
+  "requirements": [
+    "cryptography>=41.0.0"
+  ],
+  "version": "0.1.0"
+}
